@@ -44,7 +44,7 @@ string reversed_string(string str, string delim = " ") {
 		reversed += *i + delim;
 	}
 
-	return reversed.substr(0, reversed.length() - delim.length());;
+	return reversed.substr(0, reversed.length() - delim.length());
 }
 
 int main() {
