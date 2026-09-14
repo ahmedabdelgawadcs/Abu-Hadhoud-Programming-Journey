@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+**/.vs/
+x64/
+**/x64/
+Debug/
+**/Debug/
+Release/
+**/Release/
+
+# VS Code
+tasks.json
+
+# Visual Studio project files
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Executable files
+*.exe
+
+# Object / compiled files
+*.obj
+*.pdb
+*.ilk
