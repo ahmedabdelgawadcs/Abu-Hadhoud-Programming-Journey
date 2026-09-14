@@ -15,7 +15,7 @@ string join_string(vector<string>& words, string delim = " ") {
 }
 
 int main() {
-	vector<string> words{ "Mohammed", "Faid", "Ali", "Maher" };
+	vector<string> words{ "Mohammed", "Fadi", "Ali", "Maher" };
 
 	cout << "Vector after join\n" << join_string(words, "###") << endl;
 
