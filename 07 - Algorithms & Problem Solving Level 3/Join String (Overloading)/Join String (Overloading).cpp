@@ -25,8 +25,8 @@ string join_string(string arr[], short arr_length, string delim = " ") {
 }
 
 int main() {
-	vector<string> words_v{ "Mohammed", "Faid", "Ali", "Maher" };
-	string words_arr[]{ "Mohammed", "Faid", "Ali", "Maher" };
+	vector<string> words_v{ "Mohammed", "Fadi", "Ali", "Maher" };
+	string words_arr[]{ "Mohammed", "Fadi", "Ali", "Maher" };
 
 	cout << "Vector after join:\n" << join_string(words_v) << "\n" << endl;
 	cout << "Array after join:\n" << join_string(words_arr, 4) << endl;
