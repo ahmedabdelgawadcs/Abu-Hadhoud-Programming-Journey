@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 using namespace std;
 
@@ -8,14 +10,14 @@ class clsEmployee {
 
 public:
 	clsEmployee(int id, string first_name, string last_name, string title, string email, string phone, double salary, string department) {
-			_id = id;
-			_salary = salary;
-			_first_name = first_name;
-			_last_name = last_name;
-			_title = title;
-			_email = email;
-			_phone = phone;
-			_department = department;
+		_id = id;
+		_salary = salary;
+		_first_name = first_name;
+		_last_name = last_name;
+		_title = title;
+		_email = email;
+		_phone = phone;
+		_department = department;
 	}
 
 	// readonly 
