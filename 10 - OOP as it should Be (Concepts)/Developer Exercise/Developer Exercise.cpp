@@ -7,7 +7,7 @@ int main() {
 	clsProgrammer programmer(1, "Ahmed", "Ali", "ahmed.abdelgawad.cs@gmail.com", "01500223299", "SWE", "Engineering", 100000, "C++");
 
 	programmer.Print();
-
+    cout << clsProgrammer::email() << endl;
 	system("pause > 0");
 
 	return 0;
